@@ -6,6 +6,7 @@ function SearchBar() {
       <form className="form">
         <input className="bar" type="search" placeholder="Search" aria-label="Search">
         </input>
+        <button className="searchBtn" type="button">Search</button>
       </form>
     </div>
   )

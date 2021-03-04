@@ -6,9 +6,51 @@
 }
 
 .search {
+  margin-top: 5px;
   text-align: center;
+}
+
+.searchBtn {
+  margin-left: 3px;
 }
 
 .bar {
   width: 25%;
+}
+
+.banner {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin: auto;
+  background-color: rgb(179, 100, 100);
+  width: 99%;
+  margin-top: 20px;
+}
+
+h2 {
+  display: inline-block;
+  display: -moz-inline-box;
+  *display: inline; /* For IE7 */
+  zoom: 1; /* Trigger hasLayout */
+  width: 25%;
+  text-align: center;
+}
+
+.formBody {
+  margin: auto;
+  background-color: rgb(163, 7, 7);
+  height: 100%;
+  width: 99%;
+}
+
+.employeeImage {
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 256px;
+  width: 256px;
+}
+
+.name {
+  display: inline-block;
+  text-indent: 30%;
 }
