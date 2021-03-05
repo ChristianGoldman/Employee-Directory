@@ -1,6 +1,8 @@
-import React from "react";
+import React, {useState} from "react";
+import employeesJson from "../../utils/employees.json";
 
-function Body({employees}) {
+function Body() {
+  const [employees, setEmployees] = useState(employeesJson);
   console.log(employees)
   return (
     <form className="empform">

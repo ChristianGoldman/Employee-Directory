@@ -1,14 +1,13 @@
 import React from 'react';
 import {useState} from "react";
 
-function SearchBar(employees) {
+function SearchBar(setEmployees) {
   const [userInput, setUserInput] = useState("");
   const handleChange = (e) => {
-    const value = setUserInput(e.target.defaultValue);
+    const value = setUserInput(e.target.Value);
     console.log(value);
-    employees = value;
   }
-
+  
   return (
     <div className="search">
       <form className="form">
