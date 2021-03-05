@@ -5,7 +5,7 @@ function SearchBar(setEmployees) {
   const [userInput, setUserInput] = useState("");
   const handleChange = (e) => {
     const value = setUserInput(e.target.Value);
-    console.log(value);
+    return value
   }
   
   return (

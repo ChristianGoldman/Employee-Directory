@@ -3,7 +3,6 @@ import employeesJson from "../../utils/employees.json";
 
 function Body() {
   const [employees, setEmployees] = useState(employeesJson);
-  console.log(employees)
   return (
     <form className="empform">
       <div className="banner">
